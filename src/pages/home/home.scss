@@ -1,6 +1,5 @@
 .home {
     display: flex;
-    background-color: #E8F9FD;
 
     .homeContainer {
         flex: 6;
@@ -18,10 +17,9 @@
         .listContainer {
             padding: 20px;
             margin: 20px;
-            -webkit-box-shadow: -5px -7px 42px -11px rgba(0,0,0,0.53);
-            -moz-box-shadow: -5px -7px 42px -11px rgba(0,0,0,0.53);
-            box-shadow: -5px -7px 42px -11px rgba(0,0,0,0.53);
-            border-radius: 10px;
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            border-radius: 5px;
             border: 0.5px solid #a0b6cf;
             color: #a0b6cf;
 
