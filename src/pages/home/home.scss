@@ -1,5 +1,6 @@
 .home {
     display: flex;
+    background-color: #E8F9FD;
 
     .homeContainer {
         flex: 6;
@@ -12,6 +13,23 @@
 
         .charts {
             padding: 5px 20px;
+        }
+
+        .listContainer {
+            padding: 20px;
+            margin: 20px;
+            -webkit-box-shadow: -5px -7px 42px -11px rgba(0,0,0,0.53);
+            -moz-box-shadow: -5px -7px 42px -11px rgba(0,0,0,0.53);
+            box-shadow: -5px -7px 42px -11px rgba(0,0,0,0.53);
+            border-radius: 10px;
+            border: 0.5px solid #a0b6cf;
+            color: #a0b6cf;
+
+            .listTitle {
+                font-weight: 500;
+                margin-bottom: 15px;
+                color: #a0b6cf;
+            }
         }
     }
 }
